@@ -1,11 +1,29 @@
 # Face-recognition-for-taking-attendance
 
-Problem Statement: Attendance in colleges and organisation have been a time consuming task.Moreover there are chances of fake attendace of fake attendance and proxy in colleges.In order to avoid these troubles,improve accuracy and to make automated without human intervention,We proposed a solution using computer vision.
 
-Libraries used: Open source computer vision library using python PIL-python image library pyttsx-for audio output of attendance
+Problem Statement: Managing attendance in colleges and organizations has proven to be a time-consuming task. Additionally, there exists a risk of fake attendance and proxy attendance in educational institutions. To overcome these challenges, enhance accuracy, and automate the process without human intervention, we propose a solution that utilizes computer vision technology.
 
-Process Flow: The teacher need not want to take the attendance all the process will be done in background.And the attendance result are announced as voice output in every period.The attendace will be automatically updated in the database.
+Libraries Used: We utilize open-source libraries for implementing computer vision in this project. Specifically, we employ the following libraries:
 
-LBPF Face recognizer: Local binary pattern recognition-Comparing the neighbourhood pixels.Converts the images into a numpy array of pixels and the values are converted into histograms.
+        •	OpenCV: An open-source computer vision library in Python.
+        
+        •	PIL (Python Imaging Library): For image processing tasks.
+        
+        •	pyttsx: For generating audio output of the attendance status.
 
-Run a program? create a folder Classifiers,trainer,dataSet. run ->dataSet.py ->train.py ->detect.py
+Process Flow: The proposed solution eliminates the need for teachers to manually take attendance. Instead, the entire process occurs in the background. The attendance results are announced via voice output at regular intervals. Furthermore, the attendance data is automatically updated in the database.
+
+LBPF Face Recognizer: The project utilizes a Local Binary Pattern (LBP) face recognizer. This method involves comparing the pixel values of neighboring regions in images. The images are converted into numpy arrays of pixel values, which are then transformed into histograms for analysis.
+
+To Run the Program:
+1.	Create the following folders: "Classifiers," "trainer," and "dataSet."
+2.	Execute the following scripts in sequence:
+   
+        •	dataSet.py: This script collects and prepares the training dataset.
+        
+        •	train.py: Trains the LBPF face recognizer using the dataset.
+        
+        •	detect.py: Uses the trained model to detect and recognize faces for attendance.
+
+By following these steps, the automated attendance system using computer vision will be up and running.
+Please ensure that you have the required libraries installed and the necessary dataset available before running the program.
