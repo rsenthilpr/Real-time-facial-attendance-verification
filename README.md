@@ -1,4 +1,4 @@
-# Face-recognition-for-taking-attendance
+# Real-time facial attendance verification
 
 
 Problem Statement: Managing attendance in colleges and organizations has proven to be a time-consuming task. Additionally, there exists a risk of fake attendance and proxy attendance in educational institutions. To overcome these challenges, enhance accuracy, and automate the process without human intervention, we propose a solution that utilizes computer vision technology.
